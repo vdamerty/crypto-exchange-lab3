@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_crypto
+    schema: raw
+    tables:
+      - name: traders
+      - name: currencies
+      - name: wallets
+      - name: trades
+      - name: deposits_withdrawals

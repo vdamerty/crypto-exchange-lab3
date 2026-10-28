@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: stg_traders
+    columns:
+      - name: trader_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_currencies
+    columns:
+      - name: currency_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_wallets
+    columns:
+      - name: wallet_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_trades
+    columns:
+      - name: trade_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_deposits_withdrawals
+    columns:
+      - name: movement_id
+        tests:
+          - unique
+          - not_null

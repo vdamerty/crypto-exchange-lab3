@@ -1,0 +1,14 @@
+.env
+.venv-airflow/
+.venv-dbt/
+__pycache__/
+*.py[cod]
+
+airflow/*
+!airflow/dags/
+
+crypto_dbt/target/
+crypto_dbt/logs/
+crypto_dbt/dbt_packages/
+logs/
+crypto_dbt/.user.yml
